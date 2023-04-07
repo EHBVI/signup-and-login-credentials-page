@@ -6,12 +6,12 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	
 
   background-color:#FAFAFA;
     background-image: url('../bg-pattern-header.svg');
     background-repeat: none;
-    background-position: right;
+    background-position: left;
     background-size:cover;
 
 
@@ -76,7 +76,7 @@ button:hover{
 }
 .login{
 	height: 460px;
-	background: #eee;
+	background: #eaeaea;
 	border-radius: 60% / 10%;
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
