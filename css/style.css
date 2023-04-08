@@ -20,7 +20,6 @@ body{
 	width: 350px;
 	height: 500px;
 	overflow: hidden;
-	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
 	border-radius: 10px;
 	box-shadow: 2.5px 5px 25px  #000;
 }
@@ -40,7 +39,7 @@ label{
 	margin: 60px;
 	font-weight: bold;
 	cursor: pointer;
-	transition: .5s ease-in-out;
+	transition: 0.5s ease-in-out;
 }
 input{
 	width: 60%;
@@ -57,14 +56,13 @@ input{
 button{
 	width: 60%;
 	height: 40px;
-	margin: 10px auto;
+	margin: 20px auto 10px ;
 	justify-content: center;
 	display: block;
 	color: #fff;
 	background: #5275ff;
 	font-size: 1em;
 	font-weight: bold;
-	margin-top: 20px;
 	outline: none;
 	border: none;
 	border-radius: 5px;
@@ -79,11 +77,11 @@ button:hover{
 	background: #eaeaea;
 	border-radius: 60% / 10%;
 	transform: translateY(-180px);
-	transition: .8s ease-in-out;
+	transition: 0.8s ease-in-out;
 }
 .login label{
 	color: #5275ff;
-	transform: scale(.6);
+	transform: scale(0.6);
 }
 
 #chk:checked ~ .login{
@@ -93,5 +91,5 @@ button:hover{
 	transform: scale(1);
 }
 #chk:checked ~ .signup label{
-	transform: scale(.6);
+	transform: scale(0.6);
 }
